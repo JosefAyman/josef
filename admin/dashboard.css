@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #4caf50;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header button {
+    float: inline-end;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #4caf50;
+    text-align: center;
+    height: 40px;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: #fff;
+}
+
+button.actionBtn {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button.delete {
+    background: #ff5252;
+    color: #fff;
+    border: none;
+}
+
+button.ban {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+}
+
+button.edit {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+}
